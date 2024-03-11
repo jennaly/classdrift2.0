@@ -11,12 +11,12 @@ const Card = ({ feature }: Card) => {
   return (
     <div
       className={clsx(
-        "bg-white rounded-xl",
+        "bg-white rounded-xl font-medium",
         feature.style ? `${feature.style}` : "flex flex-col justify-between"
       )}
     >
       <div className="flex flex-col justify-between">
-        <p className="text-2xl font-medium py-10 px-10 lg:pr-0 lg:pl-10">
+        <p className="text-2xl py-10 px-10 lg:pr-0 lg:pl-10">
           {feature.heading.main}
           <span className="block text-classdrift-gray-100">
             {feature.heading.details}
@@ -24,7 +24,7 @@ const Card = ({ feature }: Card) => {
         </p>
 
         {feature.subheading && (
-          <p className="text-xl font-medium p-8">
+          <p className="text-xl p-8">
             {feature.subheading.main}
             <span className="block text-classdrift-gray-100">
               {feature.subheading.details}

@@ -7,9 +7,7 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
 
 const Description = ({ children, className }: Props) => {
   return (
-    <p className={clsx("text-base font-normal leading-snug mb-4", className)}>
-      {children}
-    </p>
+    <p className={clsx("text-base font-normal mb-4", className)}>{children}</p>
   );
 };
 

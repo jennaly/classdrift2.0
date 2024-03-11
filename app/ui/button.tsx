@@ -8,7 +8,7 @@ export function Button({ children, className, ...rest }: ButtonProps) {
   return (
     <button
       {...rest}
-      className={clsx("px-5 py-2 rounded-lg text-white", className)}
+      className={clsx("px-5 py-2 rounded-lg text-white font-thin", className)}
     >
       {children}
     </button>

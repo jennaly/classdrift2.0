@@ -14,7 +14,7 @@ const BottomBanner = () => {
         className="p-10 mx-auto lg:mx-0"
       ></Image>
       <div className=" text-white px-4 lg:px-10 my-auto flex flex-col gap-2  mx-auto lg:mx-0">
-        <p className="text-4xl lg:text-6xl font-semibold ">
+        <p className="text-4xl lg:text-6xl font-medium ">
           Try it now,
           <span className="text-classdrift-gray-200"> it&apos;s free</span>
         </p>
