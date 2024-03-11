@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["var(--font-sulsans)"],
+      },
       colors: {
         "classdrift-gray-100": "#CECECE",
         "classdrift-gray-200": "#5A5A5A",
