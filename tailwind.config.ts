@@ -8,6 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "classdrift-gray-100": "#CECECE",
+        "classdrift-gray-200": "#5A5A5A",
+        "classdrift-accent": "#686EFF",
+        "classdrift-background": "#F6F7F9",
+        "classdrift-strip-purple": "#C4BBFF",
+        "classdrift-strip-pink": "#FFBBEC",
+        "classdrift-strip-green": "#BBFFCA",
+        "classdrift-strip-yellow": "#FFDCBB",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
