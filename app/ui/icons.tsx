@@ -19,10 +19,10 @@ const Icon = ({ url }: Props) => {
 const Icons = () => {
   return (
     <div className="flex gap-2">
-      <Icon url={"/icons/star.png"} />
-      <Icon url={"/icons/dialogue.png"} />
-      <Icon url={"/icons/basket.png"} />
-      <Icon url={"/icons/award.png"} />
+      <Icon url={"/icons/Star.png"} />
+      <Icon url={"/icons/Dialogue.png"} />
+      <Icon url={"/icons/Basket.png"} />
+      <Icon url={"/icons/Award.png"} />
     </div>
   );
 };
