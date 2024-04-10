@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="my-4 flex justify-between items-baseline font-normal text-classdrift-gray-200">
       <div className="flex gap-1">
-        <span>@ 2022 </span>
+        <span>@ 2024 </span>
         <Logo />
       </div>
       <div className="flex gap-4">
